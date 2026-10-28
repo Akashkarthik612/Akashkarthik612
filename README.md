@@ -20,7 +20,7 @@
 
 ---
 
-## 🧑‍💻 About Me
+## 👤 About Me
 Backend engineer building **production Generative AI systems**: multi-agent orchestration with **LangGraph**, **RAG pipelines** and **LLM APIs** on solid backend foundations (**FastAPI, PostgreSQL, Docker, AWS**).
 I focus on agentic AI that is secure, cost-efficient and actually shipped to real users.
 
@@ -55,7 +55,7 @@ Live in beta with **10 users**. Built with FastAPI, PostgreSQL + pgvector, Gemin
 
 ---
 
-## 🛠️ Featured Projects
+## 📂 Featured Projects
 
 ### 🧩 [Honne AI](https://github.com/Akashkarthik612/Content-Coach-AI) — Multiplayer AI for Teams
 One shared company knowledge layer with **LangGraph agents** for LinkedIn, Reddit and X that write in your brand voice.
