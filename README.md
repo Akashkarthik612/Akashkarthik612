@@ -2,6 +2,7 @@
 
 <h1 align="center">Hi, I'm Akash Balamurugan 👋</h1>
 <h3 align="center">Backend & AI Engineer · Agentic AI · Multi-Agent Systems · LLM Engineering · Paris 🇫🇷</h3>
+<p align="center"><b>🎓 MSc Computer Networks & IoT Systems</b> (Le CNAM Paris) · <b>💼 2 years of industry experience</b> incl. AI/ML research internship at Inria</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/akash-balamurugan06"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
@@ -27,7 +28,7 @@ I focus on agentic AI that is secure, cost-efficient and actually shipped to rea
 ---
 
 ## 💼 Experience
-**1.5+ years of industry backend experience + an AI/ML research internship at Inria**
+**2 years of industry experience** — 1.5 years of backend engineering at Cognizant + an AI/ML research internship at Inria
 
 | Role | Company | Duration |
 |---|---|---|
