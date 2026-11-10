@@ -1,86 +1,99 @@
+<!-- 🖼️ IMAGE 1 (banner, optional): 1280×320 banner with your name + "Backend & AI Engineer · Agentic AI". Drag it into the GitHub editor and paste the link here. -->
+
+<p align="center"><strong>🟢 OPEN TO WORK — Backend & GenAI Engineering · France / Europe</strong></p>
 <h1 align="center">Hi, I'm Akash Balamurugan 👋</h1>
-<h3 align="center">Backend & GenAI Engineer · Python · FastAPI · LangGraph · Multi-Agent Systems</h3>
-<p align="center">📍 Paris, France · MSc Computer Networks & IoT Systems — Le CNAM · AWS Certified Solutions Architect – Associate</p>
+<h3 align="center">Backend & AI Engineer · Agentic AI · Multi-Agent Systems · LLM Engineering · Paris 🇫🇷</h3>
+<p align="center"><b>🎓 MSc Computer Networks & IoT Systems</b> (Le CNAM Paris) · <b>💼 Cognizant software engineering + Inria AI/ML internship</b></p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/akash-balamurugan06/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://honne-ai-rust.vercel.app/"><img src="https://img.shields.io/badge/Honne%20AI-Live%20App-177a70?style=flat-square" alt="Honne AI live app"></a>
-  <a href="https://honne-careers.onrender.com/"><img src="https://img.shields.io/badge/Honne%20Careers-Beta-177a70?style=flat-square" alt="Honne Careers beta"></a>
+  <a href="https://www.linkedin.com/in/akash-balamurugan06"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://honne-careers.onrender.com/"><img src="https://img.shields.io/badge/Honne%20Careers-Live%20Beta-22c55e?style=for-the-badge" alt="Honne Careers live"></a>
 </p>
 
 ---
 
-### 👋 About me
+## 📌 Table of Contents
+1. [About Me](#-about-me)
+2. [Experience](#-experience)
+3. [Flagship: Honne Careers](#-flagship-honne-careers--multi-tenant-agentic-ai-platform)
+4. [Featured Projects](#-featured-projects)
+5. [Tech Stack](#-tech-stack)
+6. [Currently](#-currently)
 
-I'm a **backend and applied AI engineer** who builds Python services, cloud infrastructure, and **practical GenAI applications**. My background includes enterprise backend engineering at **Cognizant** and AI/ML engineering at **Inria**. Independently, I develop **multiplayer AI systems**: specialised agents operating on a common knowledge layer instead of isolated, context-free prompts.
+---
 
-I work across **FastAPI, PostgreSQL, LangChain/LangGraph, RAG, PyTorch, Docker, Kubernetes and AWS**—with a focus on moving ideas into working software.
+## 👤 About Me
+Backend engineer building **production Generative AI systems**: multi-agent orchestration with **LangGraph**, **RAG pipelines** and **LLM APIs** on solid backend foundations (**FastAPI, PostgreSQL, Docker, AWS**).
+I focus on agentic AI that is secure, cost-efficient and actually shipped to real users.
 
-### 💼 Professional experience
+---
 
-| Position | Organisation | Dates |
-| --- | --- | --- |
-| **AI/ML Engineer Intern** | **Inria** — Institut national de recherche en sciences et technologies du numérique, Paris | **Apr–Sep 2025** |
-| **Software Engineer** | **Cognizant Technology Solutions**, Chennai | **Nov 2022–Jun 2023** |
-| **Software Engineer Intern** | **Cognizant Technology Solutions**, Chennai | **Jan–Jun 2022** |
+## 💼 Experience
+**Experience:** Cognizant Software Engineer and Software Engineer Intern; Inria AI/ML Engineer Intern.
 
-- **Inria:** Built a **deep reinforcement-learning scheduler** with PyTorch for operator placement across edge–fog–cloud infrastructure, including data pipelines and resource/latency optimisation.
-- **Cognizant:** Developed **Python/FastAPI** components integrated with enterprise CRM systems, worked with **AWS, PostgreSQL and CI/CD**, and performed **C#/.NET code review and analysis**. Built automation to reduce manual processing.
+| Role | Company | Duration |
+|---|---|---|
+| Solo Developer | **Honne AI** — multiplayer GenAI project | 2026 |
+| AI/ML Engineer Intern | **Inria** — deep RL scheduler for Edge–Fog–Cloud | Apr 2025 – Sep 2025 |
+| Software Engineer | **Cognizant** — enterprise CRM backend / Python API systems | Nov 2022 – Jun 2023 |
+| Software Engineer Intern | **Cognizant** — enterprise software engineering | Jan 2022 – Jun 2022 |
 
-*The Cognizant software-engineering role and internship are listed separately; the internship is not presented as full-time industry employment.*
+🎓 **MSc Computer Networks & IoT Systems** — Le CNAM Paris, with coursework at Sorbonne University
 
-### 🚀 Featured GenAI projects — Solo developer
+---
 
-#### 🧠 [Honne AI — Multiplayer GenAI Project](https://github.com/Akashkarthik612/Content-Coach-AI)
+## 🚀 Flagship: Honne Careers — Multi-Tenant Agentic AI Platform
+**A multiplayer AI SaaS where every user builds their own specialised AI agents** — and each agent can only access that user's own data and the tools they granted it.
+Tested with **20 beta users**. Built with FastAPI, PostgreSQL + pgvector, Gemini and React.
 
-**One shared knowledge layer. Multiple specialised AI agents.**
+- 🧠 **User-built custom agents** — agent builder with per-agent tool permissions and preview before saving
+- 🔒 **Per-user data isolation** — tenant-scoped retrieval, encrypted connector tokens, GDPR & DPDP-aware design
+- 🤖 **Built-in agent team** — CV Writer, Analyst, Advisor and Strategist produce a weekly job-search report
+- ✅ **Truthful CV tailoring** — a deterministic checker blocks any skill, metric or date not in the user's profile
 
-An independently developed multiplayer AI application exploring how a team can centralise its knowledge, retrieve relevant context and use specialised agents to help with content and workflows. Rather than giving every agent a different set of documents, the system is designed around a shared source of context.
+<!-- 🎥 VIDEO (60–90 s, MOST IMPORTANT): create a custom agent → grant it tools → run it → show it only sees your own data. Drag the .mp4 (under 10 MB) here. -->
+<!-- 🖼️ IMAGE 2: architecture diagram — users → agents → permission layer → per-user data (Postgres/pgvector). -->
 
-- **Architecture:** React, FastAPI, PostgreSQL + pgvector, Supabase, LangGraph/LangChain and Gemini.
-- **Engineering:** Document-ingestion and retrieval components, agent-specific workflows for LinkedIn, Reddit and X, persistent conversation history and automated tests.
-- **Purpose:** Reduce repetitive context-sharing and make AI agents more useful for organisational workflows.
+🔗 [Repository](https://github.com/Akashkarthik612/Honne-Careers) · [Live app](https://honne-careers.onrender.com/)
 
-**[Live app](https://honne-ai-rust.vercel.app/)** · **[Source code](https://github.com/Akashkarthik612/Content-Coach-AI)**
+---
 
-#### 🎯 [Honne Careers — Context-Aware GenAI for Job Search](https://github.com/Akashkarthik612/Honne-Careers)
+## 📂 Featured Projects
 
-**Tailor a CV, track the application and keep the context for what comes next.**
+### 🧩 [Honne AI](https://github.com/Akashkarthik612/Content-Coach-AI) — Multiplayer AI for Teams
+One shared company knowledge layer with **LangGraph agents** for LinkedIn, Reddit and X that write in your brand voice.
+Postgres-backed thread memory, Supabase auth, and CI with Docker and Playwright smoke tests.
+<!-- 🎥 VIDEO (60 s): give the agent your material → generate a post in your voice → resume the thread later. -->
 
-A solo-developed AI job-search product combining a **CV studio**, **application tracker** and **specialised AI assistants** built around saved CVs, job descriptions and application records.
+### 🔎 [Production-Grade RAG with Hybrid Search](https://github.com/Akashkarthik612/Production-Grade-Rag-Hybrid-Search)
+**RAG** over enterprise PDFs combining **BM25 + vector search** (ChromaDB), token-aware chunking and optional **Cohere reranking**.
+Returns cited answers, tested in CI and fully Dockerised.
+<!-- 🖼️ IMAGE 3: pipeline diagram (ingest → chunk → embed → hybrid retrieve → rerank → cited answer) -->
 
-- **Stack:** React, FastAPI, PostgreSQL, Gemini and supporting backend services.
-- **Workflow:** JD-aware CV tailoring, PDF generation, saved application context and follow-up assistance.
-- **Validation:** Tested with **20 early beta users**; under active development.
+### ⚡ [Local AI Assistant & LLM Benchmarking](https://github.com/Akashkarthik612/Local-AI-Assistant-LLM-Benchmarking)
+Self-hosted **Llama 3.2** chat via **Ollama + FastAPI** with real-time token streaming.
+Auto-benchmarks every response: **TTFT**, tokens/sec and end-to-end latency.
+<!-- 🖼️ GIF (10–15 s): streaming answer + metrics printed in the console -->
 
-**[Live beta](https://honne-careers.onrender.com/)** · **[Source code](https://github.com/Akashkarthik612/Honne-Careers)**
+### ☸️ [Microservices on AWS EKS with Helm](https://github.com/Akashkarthik612/AWS-EKS-HELM-PROJECT)
+Deployed a 10+ microservice e-commerce app on **Amazon EKS** using **Helm**, **EBS CSI + IRSA** for persistent storage and an **ALB ingress**.
+<!-- 🖼️ IMAGE 4: screenshot of all pods Running + the app live behind the ALB -->
 
-### 🛠️ Other engineering projects
+### 🛡️ [Network Attack Simulation (DoS)](https://github.com/Akashkarthik612/DOS_attack_project)
+SYN flood and ICMP flood simulation in **Python + Scapy** with attack logging — network security from my Computer Networks & IoT master's.
 
-| Project | Focus |
-| --- | --- |
-| [Production-Grade RAG with Hybrid Search](https://github.com/Akashkarthik612/Production-Grade-Rag-Hybrid-Search) | Enterprise-document retrieval using **BM25 + semantic search**, with optional reranking |
-| [Local AI Assistant & LLM Benchmarking](https://github.com/Akashkarthik612/Local-AI-Assistant-LLM-Benchmarking) | **Ollama + FastAPI** model serving, streamed responses and latency/throughput measurement |
-| [Microservices on AWS EKS with Helm](https://github.com/Akashkarthik612/AWS-EKS-HELM-PROJECT) | **Kubernetes, Helm, AWS EKS**, service deployment and infrastructure |
-| [Network Attack Analysis](https://github.com/Akashkarthik612/DOS_attack_project) | **Python/Scapy** and network-security experiments |
+---
 
-### 🧰 Technical toolkit
+## 🧰 Tech Stack
+**AI / LLM:** ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?logo=langchain&logoColor=white) ![LangSmith](https://img.shields.io/badge/LangSmith-1C3C3C?logo=langchain&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?logo=googlegemini&logoColor=white) ![Ollama](https://img.shields.io/badge/Ollama-000000?logo=ollama&logoColor=white) ![RAG](https://img.shields.io/badge/RAG-Hybrid%20Search-orange) ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F00)
 
-| Area | Technologies |
-| --- | --- |
-| **Backend & data** | Python, FastAPI, REST APIs, PostgreSQL, Redis, SQL |
-| **AI & GenAI** | PyTorch, LangGraph, LangChain, RAG, pgvector, Gemini, LLM evaluation |
-| **Cloud & DevOps** | AWS, Terraform, Docker, Kubernetes, Helm, Jenkins, GitHub Actions, CI/CD |
-| **Frontend** | React, JavaScript, Vite |
+**Backend:** ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![pgvector](https://img.shields.io/badge/pgvector-336791) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?logo=supabase&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
 
-### 🎓 Education & certification
+**Cloud / DevOps:** ![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonwebservices&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
 
-- **MSc, Computer Networks & IoT Systems** — Le CNAM, Paris (2023–2025)
-- **B.E., Electronics & Communication Engineering** — Rajalakshmi Engineering College, Chennai (2018–2022)
-- **AWS Certified Solutions Architect – Associate (SAA-C03)**
+---
 
-### 📬 Let's connect
-
-I'm open to **Python backend, Applied AI / GenAI, MLOps and cloud/platform engineering** opportunities in France and across Europe.
-
-**[Connect with me on LinkedIn](https://www.linkedin.com/in/akash-balamurugan06/)** · **[Explore my GitHub repositories](https://github.com/Akashkarthik612?tab=repositories)**
+## 🔭 Currently
+- 🚀 Scaling **Honne Careers** from beta to public launch
+- 🏆 Competing in the **AWS AI League Agentic Challenge** — supervisor + sub-agents on Amazon Bedrock AgentCore
+- 💬 Open to **AI Engineer, Backend and LLMOps** roles in France — let's talk on [LinkedIn](https://www.linkedin.com/in/akash-balamurugan06)
